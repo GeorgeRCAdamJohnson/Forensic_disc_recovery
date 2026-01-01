@@ -15,7 +15,7 @@
 ✅ Detected: os.system, subprocess.call, socket.socket, base64.b64decode
 ⚠️  Risk Indicators: Command execution, Network communication, Encoding/Obfuscation
 
-# Investigation Text Analysis - Risk Score: 18.5/10 (CRITICAL)
+# Investigation Text Analysis - Risk Score: 10/10 (CRITICAL)
 ✅ Found 8 suspicious keywords: admin, password, backdoor, malware, trojan
 ✅ Found 4 network indicators: 192.168.1.100:4444, malicious-site.com
 🚨 ALERT: Sensitive data detected - Credit Card: 4532-****-****-9012, SSN: ***-**-6789
