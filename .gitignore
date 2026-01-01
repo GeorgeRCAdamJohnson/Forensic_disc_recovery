@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Forensic data (NEVER commit real evidence)
+*.dd
+*.img
+*.raw
+*.e01
+*.vmem
+*.dmp
+evidence/
+recovered/
+carved/
+cases/
+*.hashes
+
+# Logs
+logs/
+evidence_logs/
+*.log
+
+# AI Models (too large for git)
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# Configuration with secrets
+.env
+*.key
+*.pem
+*.p12
+ai_config.json
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+test_*.txt
+test_*.py.bak
+test_image.jpg
+test_sample.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+.dockerignore
+Dockerfile.bak
+
+# Kubernetes
+k8s/secrets/
+*.kubeconfig
+
+# Certificates
+certs/
+*.crt
+*.csr
+
+# Backup files
+backup/
+*.backup
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
